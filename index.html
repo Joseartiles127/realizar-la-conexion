@@ -2,68 +2,54 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Realizar la Conexión - Proyecto Grupal</title>
+  <title>Conexión a Internet</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
   <header>
-    <h1>Realizar la Conexión</h1>
-    <p>Un proyecto colaborativo sobre tecnología y vínculos digitales</p>
-    <nav>
-      <ul>
-        <li><a href="#equipo">Equipo</a></li>
-        <li><a href="#tema">El Tema</a></li>
-        <li><a href="#galeria">Galería</a></li>
-        <li><a href="#contacto">Contacto</a></li>
-      </ul>
-    </nav>
+    <h1>🌐 Realizar Conexión a Internet</h1>
+    <p><strong>Por:</strong> Jose Artiles, Luis Emilio Ramirez y Karolay G. Javier</p>
   </header>
 
   <main>
-    <section id="equipo">
-      <h2>Integrantes del Equipo</h2>
+    <section>
+      <h2>¿Qué es la conexión a Internet?</h2>
+      <p>La conexión a Internet permite el acceso a una red global de información. Para conectarse, se utilizan tecnologías como Wi-Fi, fibra óptica o datos móviles.</p>
+    </section>
+
+    <section>
+      <h2>Pasos para conectarse a Internet</h2>
+      <ol>
+        <li>Dispositivo con adaptador de red (Wi-Fi o Ethernet).</li>
+        <li>Red disponible con acceso a Internet.</li>
+        <li>Configuración del router o punto de acceso.</li>
+        <li>Autenticación con contraseña si es necesario.</li>
+        <li>Navegación mediante un navegador o aplicación.</li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>Tipos de conexión</h2>
       <ul>
-        <li><strong>Jose Artiles</strong> – Coordinador del proyecto</li>
-        <li><strong>Luis Emilio Ramírez</strong> – Diseñador y desarrollador</li>
-        <li><strong>Karolay G. Javier</strong> – Investigadora y redactora</li>
+        <li>🔌 Conexión por cable (Ethernet)</li>
+        <li>📶 Conexión inalámbrica (Wi-Fi)</li>
+        <li>📡 Datos móviles (3G/4G/5G)</li>
+        <li>🛰️ Satelital</li>
       </ul>
     </section>
 
-    <section id="tema">
-      <h2>¿Qué significa "Realizar la Conexión"?</h2>
-      <p>“Realizar la Conexión” es más que un proceso técnico. Es unir dispositivos, ideas, personas y culturas por medio de la tecnología. Ya sea una conexión de red, de base de datos o una videollamada familiar, estamos construyendo puentes digitales cada día.</p>
-      <h3>Ejemplos de conexión:</h3>
-      <ul>
-        <li>🌐 Conexión a Internet</li>
-        <li>🧠 Conexión entre mentes y proyectos</li>
-        <li>📡 Conexión entre dispositivos (IoT)</li>
-        <li>🤝 Conexión entre personas gracias a la tecnología</li>
-      </ul>
-    </section>
-
-    <section id="galeria">
-      <h2>Galería</h2>
-      <img src="https://via.placeholder.com/300x200.png?text=Conexión+Digital" alt="Conexión Digital">
-      <img src="https://via.placeholder.com/300x200.png?text=Trabajo+en+Equipo" alt="Trabajo en equipo">
-    </section>
-
-    <section id="contacto">
-      <h2>Contáctanos</h2>
-      <form id="formulario">
-        <input type="text" placeholder="Tu nombre" required>
-        <input type="email" placeholder="Tu correo" required>
-        <textarea placeholder="Escribe tu mensaje aquí..." required></textarea>
-        <button type="submit">Enviar</button>
-      </form>
+    <section>
+      <h2>Verificar si estás conectado</h2>
+      <button onclick="verificarConexion()">Verificar Conexión</button>
+      <p id="estadoConexion"></p>
     </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Proyecto Grupal - Jose, Luis y Karolay</p>
+    <p>&copy; 2025 - Proyecto Grupal O&M | Grupo de Jose Artiles</p>
   </footer>
 
   <script src="script.js"></script>
 </body>
 </html>
+
