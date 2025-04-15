@@ -1,4 +1,6 @@
-document.getElementById("formulario").addEventListener("submit", function(event) {
-  event.preventDefault();
-  alert("Gracias por contactarnos. Te responderemos pronto.");
-});
+function verificarConexion() {
+  const estado = navigator.onLine 
+    ? "✅ Estás conectado a Internet." 
+    : "❌ No estás conectado a Internet.";
+  document.getElementById("estadoConexion").textContent = estado;
+}
