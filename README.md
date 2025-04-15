@@ -1,42 +1,63 @@
-# 🌐 Realizar la Conexión
+# 🌐 Proyecto Web: Realizar Conexión a Internet
 
-Este proyecto web fue desarrollado como trabajo grupal para presentar el tema **"Realizar la Conexión"**, utilizando tecnologías como HTML, CSS y JavaScript. El objetivo es explorar el concepto de conexión desde el punto de vista tecnológico y humano.
+Este proyecto es una página web educativa desarrollada por **Jose Artiles**, **Luis Emilio Ramirez** y **Karolay G. Javier**, como parte de nuestra asignatura en la Universidad O&M.
 
----
-
-## 👨‍💻 Integrantes del Grupo
-
-- **Jose Artiles** – Coordinador del Proyecto / Desarrollo Frontend  
-- **Luis Emilio Ramírez** – Diseñador Web / Maquetador  
-- **Karolay G. Javier** – Redactora / Investigación de contenido  
+El objetivo de este sitio es explicar de manera clara y visual cómo se realiza una conexión a Internet, los tipos de conexión existentes y una herramienta interactiva para verificar si el usuario tiene acceso a Internet.
 
 ---
 
-## 🎯 Objetivo del Proyecto
+## 🔧 Tecnologías utilizadas
 
-El propósito de este sitio web es representar de manera interactiva y visual el concepto de "conexión", destacando sus distintas formas:
-
-- Conexiones en red (LAN, WiFi, Internet)
-- Conexiones humanas mediante plataformas digitales
-- Conexiones entre sistemas (base de datos, APIs, dispositivos IoT)
+- **HTML5** para la estructura de la página.
+- **CSS3** para el diseño y los estilos visuales.
+- **JavaScript** para la interactividad (como el botón que verifica la conexión).
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## 📌 Funcionalidades principales
 
-- **HTML5** – Estructura semántica del sitio
-- **CSS3** – Estilos, responsividad y diseño visual
-- **JavaScript** – Validación de formularios e interactividad
+- ✅ Explicación detallada de qué es una conexión a Internet.
+- 📶 Lista de pasos necesarios para conectarse.
+- 🌍 Diferencias entre tipos de conexión (Wi-Fi, Ethernet, datos móviles, satelital).
+- 🧠 Verificación en tiempo real del estado de conexión del usuario mediante JavaScript.
 
 ---
 
-## 🖼️ Vista Previa
+## 🎯 Objetivos del Proyecto
 
-Puedes ver el proyecto funcionando en este enlace:
+- Reforzar el uso de HTML, CSS y JS en un proyecto real.
+- Trabajar en equipo usando buenas prácticas.
+- Comprender conceptos clave sobre el acceso a redes y conectividad.
 
-🔗 [Ver página en línea](https://<usuario>.github.io/realizar-la-conexion)
+---
 
-> Reemplaza `<usuario>` con tu nombre de usuario en GitHub una vez publicado en GitHub Pages.
+## 🧑‍🤝‍🧑 Integrantes del equipo
+
+- **Jose Artiles**
+- **Luis Emilio Ramirez**
+- **Karolay G. Javier**
+
+---
+
+## 💻 Captura del sitio
+
+![Vista previa del sitio](./img/captura-pagina.png)
+
+---
+
+## 🔗 Acceso al proyecto
+
+- **GitHub Pages:** [https://tuusuario.github.io/conexion-internet](https://tuusuario.github.io/conexion-internet)
+- **Repositorio GitHub:** [https://github.com/tuusuario/conexion-internet](https://github.com/tuusuario/conexion-internet)
+
+> ⚠️ Reemplaza `tuusuario` por tu nombre de usuario en GitHub una vez subas el proyecto.
+
+---
+
+## 📝 Licencia
+
+Este proyecto es educativo y libre de uso para fines académicos.
+
 
 ---
 
